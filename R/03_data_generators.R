@@ -2,7 +2,7 @@
 source("R/05_utils.R")
 
 #' Generate dependent data from a unimodal distribution using Clayton Copula
-#'
+#' 
 #' @param n Total length of the time series.
 #' @param cp The true changepoint location.
 #' @param params1 A list of parameters for the first segment: list(mean, sd).
